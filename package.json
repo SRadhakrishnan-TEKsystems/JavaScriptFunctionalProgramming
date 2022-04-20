@@ -1,0 +1,33 @@
+{
+  "name": "javascript-functional-programming",
+  "version": "1.0.0",
+  "description": "Code Along Kyle Simpson",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node play.js --watchAll",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SRadhakrishnan-TEKsystems/JavaScriptFunctionalProgramming.git"
+  },
+  "keywords": [
+    "FP"
+  ],
+  "author": "Sabitha Radhakrishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SRadhakrishnan-TEKsystems/JavaScriptFunctionalProgramming/issues"
+  },
+  "homepage": "https://github.com/SRadhakrishnan-TEKsystems/JavaScriptFunctionalProgramming#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1"
+  }
+}
